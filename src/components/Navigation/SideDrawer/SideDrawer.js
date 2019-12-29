@@ -9,7 +9,7 @@ import classes from "./SideDrawer.module.css";
 
 const sideDrawer = (props) => {
   let attachClasses = [classes.SideDrawer, classes.Close];
-  if(props.open) {
+  if (props.open) {
     attachClasses = [classes.SideDrawer, classes.Open];
   }
   return (
