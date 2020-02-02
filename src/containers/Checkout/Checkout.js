@@ -16,7 +16,6 @@ class Checkout extends Component {
     let price = 0;
     console.log(query.entries());
     for (let param of query.entries()) {
-      console.log(param);
       if (param[0] === "price") {
         price = param[1]
       } else {
